@@ -8,9 +8,9 @@
  * Member Information Utilities
  */
 
-import { XXH64 } from './webflow-crypto.js';
-import { toTitleCase, jsonMapReplacer, jsonMapReviver } from './webflow-utils.js';
-import { WfuDebug } from './webflow-core.js';
+import { XXH64 } from 'https://cdn.jsdelivr.net/gh/sygnaltech/webflow-util@4.7/src/modules/webflow-crypto.js';
+import { toTitleCase, jsonMapReplacer, jsonMapReviver } from 'https://cdn.jsdelivr.net/gh/sygnaltech/webflow-util@4.7/src/modules/webflow-utils.js';
+import { WfuDebug } from 'https://cdn.jsdelivr.net/gh/sygnaltech/webflow-util@4.7/src/modules/webflow-core.js';
 
 // Install utility function if needed 
 window.getCookie = window.getCookie || function(name) {
